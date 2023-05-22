@@ -1,10 +1,10 @@
 import paho.mqtt.client as mqtt
 
-
+topic=input("enter topic name")
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
 
-    client.subscribe("Arunima")
+    client.subscribe(topic)
 
 
 def on_message(client, userdata, msg):

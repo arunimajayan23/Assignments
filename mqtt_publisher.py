@@ -12,7 +12,7 @@ client = mqtt.Client()
 client.on_connect = on_connect
 
 broker_address = "localhost"
-topic = "Arunima"
+topic = input("Enter topic name")
 
 client.connect(broker_address, 1883, 60)
 
