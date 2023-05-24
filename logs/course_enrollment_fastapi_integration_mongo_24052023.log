@@ -1,0 +1,23 @@
+2023-05-24 17:51:53,328 - INFO - main.py:13 - <module> - Service started
+2023-05-24 17:51:57,553 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 17:52:25,511 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 17:54:11,115 - INFO - student_handler.py:61 - delete_student - Successfully deleted the student details
+2023-05-24 17:54:29,198 - INFO - student_handler.py:61 - delete_student - Successfully deleted the student details
+2023-05-24 17:54:38,154 - INFO - student_handler.py:61 - delete_student - Successfully deleted the student details
+2023-05-24 17:54:42,399 - INFO - student_handler.py:61 - delete_student - Successfully deleted the student details
+2023-05-24 17:54:45,854 - INFO - student_handler.py:61 - delete_student - Successfully deleted the student details
+2023-05-24 17:54:59,243 - INFO - student_handler.py:58 - delete_student - The student details has been deleted succesfully
+2023-05-24 17:55:04,428 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 18:01:03,604 - INFO - student_handler.py:39 - insert_student - INFO: Adding a student detail 
+2023-05-24 18:04:27,009 - INFO - student_handler.py:39 - insert_student - INFO: Adding a student detail 
+2023-05-24 18:07:41,883 - INFO - student_handler.py:39 - insert_student - INFO: Adding a student detail 
+2023-05-24 18:08:07,078 - INFO - student_handler.py:39 - insert_student - INFO: Adding a student detail 
+2023-05-24 18:08:12,882 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 18:09:05,857 - WARNING - student_handler.py:42 - insert_student - Details of the student is not added
+2023-05-24 18:09:10,011 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 18:10:00,588 - INFO - student_handler.py:52 - update_student - updated the students details
+2023-05-24 18:10:06,466 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 18:10:51,299 - WARNING - student_handler.py:48 - update_student - cannot update student details
+2023-05-24 18:11:42,100 - INFO - student_handler.py:52 - update_student - updated the students details
+2023-05-24 18:11:48,818 - INFO - student_handler.py:30 - get_student - Get the details of the student
+2023-05-24 18:13:00,373 - INFO - student_handler.py:30 - get_student - Get the details of the student
