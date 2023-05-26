@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #0e88eb;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  h1, h2, h3 {
+    color: #f4b30f;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  footer {
+    background: #0f0f0a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
