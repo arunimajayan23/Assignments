@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KL Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header>
+        <h1>KL Store</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-9">
+
+
+            <div class="products">
+                <div class="product-card" onclick="openModal(1)">
+                    <img src="cyclefinal" alt="Cycle">
+                    <div class="product-details">
+                        <h3>Cycle</h3>
+                        <p>Rs.10,000</p>
+                        <button class="buy-btn" onclick="addToCart(1)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(2)">
+                    <img src="HEADPHONE2.png" alt="Headphones">
+                    <div class="product-details">
+                        <h3>Headphones</h3>
+                        <p>Rs.11,500</p>
+                        <button class="buy-btn" onclick="addToCart(2)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(3)">
+                    <img src="PHONE2.jpg" alt="Mobile">
+                    <div class="product-details">
+                        <h3>Mobile</h3>
+                        <p>Rs.80,000</p>
+                        <button class="buy-btn" onclick="addToCart(3)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(4)">
+                    <img src="LAPTOP2.jpg" alt="Laptop">
+                    <div class="product-details">
+                        <h3>Laptop</h3>
+                        <p>Rs.65,000</p>
+                        <button class="buy-btn" onclick="addToCart(4)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(5)">
+                    <img src="Bottle.webp" alt="Bottle">
+                    <div class="product-details">
+                        <h3>Bottle</h3>
+                        <p>Rs.800</p>
+                        <button class="buy-btn" onclick="addToCart(5)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(6)">
+                    <img src="BAGFINAL.jpg" alt="Bag">
+                    <div class="product-details">
+                        <h3>Bag</h3>
+                        <p>Rs.1000</p>
+                        <button class="buy-btn" onclick="addToCart(6)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(7)">
+                    <img src="kettlefinal" alt="Kettle">
+                    <div class="product-details">
+                        <h3>Kettle</h3>
+                        <p>Rs.1000</p>
+                        <button class="buy-btn" onclick="addToCart(7)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(8)">
+                    <img src="tvfinal" alt="TV">
+                    <div class="product-details">
+                        <h3>TV</h3>
+                        <p>Rs.70,000</p>
+                        <button class="buy-btn" onclick="addToCart(8)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(9)">
+                    <img src="ACFINAL.jpg" alt="Air Conditioner">
+                    <div class="product-details">
+                        <h3>Air Conditioner</h3>
+                        <p>Rs.90,000</p>
+                        <button class="buy-btn" onclick="addToCart(9)">Buy</button>
+                    </div>
+                </div>
+                <div class="product-card" onclick="openModal(10)">
+                    <img src="Mixer.jpg" alt="Mixer">
+                    <div class="product-details">
+                        <h3>Mixer</h3>
+                        <p>Rs.23,999</p>
+                        <button class="buy-btn" onclick="addToCart(10)">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="container">
+                <div class="cart-panel">
+                    <h2>Cart</h2>
+                    <ul id="cart-items"></ul>
+                    <p id="total-price">Total: Rs.0</p>
+                    <button class="checkout-btn" onclick="redirectToCheckout()">Checkout</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="product-title"></h2>
+            <p id="product-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
